@@ -71,10 +71,13 @@
 			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
 
+		<!-- Removed spring-boot-starter-amqp dependency to disable RabbitMQ support -->
+		<!--
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
+		-->
 
 		<dependency>
 			<groupId>io.micrometer</groupId>
