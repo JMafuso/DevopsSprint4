@@ -1,5 +1,4 @@
 br\com\fiap\ja\odontoprev\PacienteProfissionalFeedback$TipoFeedback.class
-br\com\fiap\ja\odontoprev\consumer\PacienteConsumer.class
 br\com\fiap\ja\odontoprev\dto\PacienteDTO.class
 br\com\fiap\ja\odontoprev\OdontoApplication.class
 br\com\fiap\ja\odontoprev\repository\ProfissionalRepository.class
@@ -7,7 +6,6 @@ br\com\fiap\ja\odontoprev\controller\PacienteController.class
 br\com\fiap\ja\odontoprev\service\ProfissionalService.class
 br\com\fiap\ja\odontoprev\PacienteProfissionalFeedback$Feedback.class
 br\com\fiap\ja\odontoprev\config\AiConfig.class
-br\com\fiap\ja\odontoprev\config\RabbitMQConfig.class
 br\com\fiap\ja\odontoprev\controller\ProfissionalController.class
 br\com\fiap\ja\odontoprev\config\LocaleConfig.class
 br\com\fiap\ja\odontoprev\PacienteProfissionalFeedback.class
