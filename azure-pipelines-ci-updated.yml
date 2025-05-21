@@ -29,7 +29,7 @@ stages:
       inputs:
         versionSpec: '21'
         jdkArchitectureOption: 'x64'
-        jdkSourceOption: 'PreInstalled'
+        jdkSourceOption: 'Azure'
       displayName: 'Install JDK 21'
 
     - script: |
