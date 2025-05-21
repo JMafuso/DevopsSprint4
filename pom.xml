@@ -95,7 +95,6 @@
 			<version>${lombok.version}</version>
 		</dependency>
 
-
 		<dependency>
 			<groupId>org.mapstruct</groupId>
 			<artifactId>mapstruct-processor</artifactId>
@@ -122,6 +121,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.junit.platform</groupId>
 			<artifactId>junit-platform-launcher</artifactId>
@@ -133,8 +133,6 @@
 			<artifactId>spring-ai-vector-store</artifactId>
 			<version>1.0.0-M8</version>
 		</dependency>
-
-
 	</dependencies>
 
 	<repositories>
@@ -160,7 +158,6 @@
 			<url>https://repo.spring.io/release</url>
 			<snapshots><enabled>false</enabled></snapshots>
 		</repository>
-
 		<repository>
 			<id>spring-plugins</id>
 			<name>Spring Plugins Repository</name>
@@ -178,10 +175,9 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
+				<version>3.11.0</version>
 				<configuration>
-					<source>21</source> <!-- Set this according to your Java version -->
-					<target>21</target>
+					<release>${java.version}</release>
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.mapstruct</groupId>
